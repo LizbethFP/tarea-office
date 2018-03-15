@@ -1,13 +1,16 @@
 import React from 'react';
 import HobbieListItem from './HobbieListItem';
+import PropTypes from 'prop-types';
 
 
-const hobbiesArray = ['comer', 'ir al cine', 'asistir a un concierto', 'leer cómics'];
-
-const HobbieList = () => (
+const HobbieList = ({hobbiesArray}) => (
   <ul>
-    <HobbieListItem hobbiesprop = {hobbiesArray}/>
+    {hobbiesArray.map(el => <HobbieListItem  key={el}/>)}
   </ul>
 )
 
-export default HobbieList;
+HobbieList.PropTypes = {
+  hobbiesArray:PropTypes.arrayOf(PropTypes.string)
+}
+
+export default HobbieList

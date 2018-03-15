@@ -5,9 +5,9 @@ const spanish = ['Inicio', 'Conóceme', 'Contactame']
 const ingles = ['Home', 'About Me', 'Contact']
 
 const Header = () => (
-  <div>
+  <header>
     <NavBar arrayOfString = {spanish}/>
-  </div>
+  </header>
 )
 
 export default Header

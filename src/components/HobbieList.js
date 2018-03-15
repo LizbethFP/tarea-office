@@ -3,9 +3,9 @@ import HobbieListItem from './HobbieListItem';
 import PropTypes from 'prop-types';
 
 
-const HobbieList = ({hobbiesArray}) => (
+const HobbieList = ({hobbieData}) => (
   <div>
-    {hobbiesArray.map(el=><HobbieListItem hobbiesArray={el} key={el}/>)}
+    {hobbieData.map(el=><HobbieListItem data={el} key={el}/>)}
     {/* {hobbiesArray.map(el => <HobbieListItem  key={el}/>)} */}
   </div>
 )

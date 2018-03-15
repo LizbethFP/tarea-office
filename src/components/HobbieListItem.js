@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 
-const HobbieListItem = ({hobbiesArray}) => (
+const HobbieListItem = ({data}) => (
   <ul>
-    <li>{hobbiesArray}</li>
+    <li>{data}</li>
   </ul>
 )
 

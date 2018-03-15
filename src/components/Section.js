@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Section = () => (
   <section>
     <p>Subtítulo</p>
-    <img src="" alt="imagen de prueba"/>
+    <img src="http://www.giftsofcompassion.org.uk/wp-content/uploads/Chick-300x300.jpg" alt="imagen de prueba"/>
   </section>
 )
 

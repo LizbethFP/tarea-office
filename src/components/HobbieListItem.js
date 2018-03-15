@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types'
 
 const HobbieListItem = ({hobbiesArray}) => (
-  <li>
-    {hobbiesArray}
-  </li>
+  <ul>
+    <li>{hobbiesArray}</li>
+  </ul>
 )
 
 HobbieListItem.PropTypes = {
-  hobbiesArray: PropTypes.arrayOf(PropTypes.string)
+  datohobbie: PropTypes.string.isRequired
 }
 
 export default HobbieListItem;

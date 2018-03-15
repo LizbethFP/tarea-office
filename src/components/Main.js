@@ -5,9 +5,9 @@ import Section from './Section'
 
 const hobbiesArray = ['comer', 'ir al cine', 'asistir a un concierto', 'leer cómics'];
 
-const Main = (hobbiesprop) => (
+const Main = (hobbieData) => (
   <main>
-  <HobbieList hobbiesprop = {hobbiesArray}/>
+  <HobbieList hobbieData = {hobbiesArray}/>
   <Section/>
   </main>
 )
